@@ -1,0 +1,65 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.settings {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.banner {
+  width: 55%;
+  align-self: center;
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner {
+    width: 85%;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .settings {
+    width: 100%;
+  }
+}
+
+.settings__select {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  flex: 0.8;
+  font-style: italic;
+  justify-content: space-evenly;
+  background-color:mistyrose;  
+}
+.head
+{
+  color: white;
+  font-family: cursive;
+  font-weight: 200;
+  font-size: large;
+}
+.MuiInputBase-input {
+  font-weight: 500;
+  font: inherit;
+  color: black !important;
+  width: 80% !important;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color:white;
+}

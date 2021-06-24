@@ -1,0 +1,22 @@
+.title {
+  text-transform: uppercase;
+  font-size: 6vw;
+  font-family: cursive;
+  cursor: pointer;
+ 
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:rgb(225, 239, 252);
+  font-weight: 750;
+  
+}
+
+.divider {
+  margin: 10px;
+  width: 80%;
+  background-color: grey;
+}

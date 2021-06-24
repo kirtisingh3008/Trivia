@@ -1,0 +1,30 @@
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cursive;
+  color: white;
+}
+
+.subtitle {
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 4px 4px 2px black;
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.quizInfo {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin: 10px;
+  font-size: small !important;
+}
+.name
+{
+  font-size: 35px;
+  color: burlywood;
+}
