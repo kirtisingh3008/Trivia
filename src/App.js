@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import Home from "./Pages/Home/Home";
 import Quiz from "./Pages/Quiz/Quiz";
 import Result from "./Pages/Result/Result";
+const port =process.env.PORT || 8000;
 
 function App() {
   const [questions, setQuestions] = useState();
